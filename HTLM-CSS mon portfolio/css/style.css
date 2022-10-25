@@ -1,0 +1,255 @@
+body {
+  width: 1024px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  background-color: rgb(35, 104, 104);
+}
+header h1 {
+  font-size: 48px;
+  line-height: 200px;
+  text-align: center;
+  height: 200px;
+}
+
+.main-block {
+  width: 1024px;
+  background-color: white;
+  height: 600px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  text-align: center;
+  margin: auto;
+  line-height: 100px;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  width: 1024px;
+  flex: 1;
+  text-decoration: none;
+  font-style: normal;
+  height: 100px;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: rgb(199, 77, 172);
+}
+
+img {
+  object-fit: cover;
+}
+
+#about-me {
+  height: 800px;
+  background-color: white;
+  color: black;
+}
+
+#about-me div img {
+  border: black solid 3px;
+  border-radius: 50%;
+  margin-top: 100px;
+}
+
+#about-me div {
+  width: 1024px;
+  height: 500px;
+  color: rgb(35, 104, 104);
+  display: flex;
+  justify-content: center;
+}
+
+#about-me body {
+  text-align: justify;
+  margin: 50px;
+}
+#about-me div p {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: bold;
+  height: 30px;
+  margin-left: 50px;
+  margin-top: 200px;
+  margin-bottom: 40px;
+}
+#about-me a {
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  height: 30px;
+  margin-left: 125px;
+}
+#about-me p {
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#formation section {
+  display: flex;
+  justify-content: center;
+  width: 1024px;
+  height: 800px;
+}
+#formation {
+  width: 1024px;
+  height: 1000px;
+  color: black;
+  background-color: rgb(204, 218, 218);
+}
+
+#formation img {
+  height: 100px;
+  object-fit: contain;
+  flex: 1;
+}
+#formation main {
+  width: 800px;
+  height: 100px;
+  display: flex;
+  padding-left: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#formation div {
+  height: 300px;
+  justify-content: center;
+}
+#formation h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#formation p img {
+  display: flex;
+}
+#formation p {
+  text-align: center;
+  font-style: normal;
+  line-height: 30px;
+}
+span {
+  font-weight: bold;
+}
+#mes-projets {
+  background-color: white;
+  color: black;
+}
+#mes-projets h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#mes-projets img {
+  width: 500px;
+}
+#mes-projets p {
+  text-align: center;
+  line-height: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#mes-projets ol {
+  padding-top: 10px;
+  list-style-type: disc;
+}
+#mes-projets li {
+  list-style-type: disc 10px;
+  line-height: 30px;
+}
+
+#mes-projets h3 {
+  font-size: 26px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+#mes-projets h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+#mes-projets div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px;
+}
+
+#separation {
+  height: 50px;
+  background-color: rgb(35, 104, 104);
+}
+#contact {
+  width: 1024px;
+  height: 300px;
+  background-color: white;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#contact h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+}
+
+#contact img {
+  width: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#contact div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+}
+
+#contact a {
+  text-decoration: none;
+  color: black;
+}
+#contact a:hover {
+  color: rgb(199, 77, 172);
+}
+footer {
+  background-color: rgb(204, 218, 218);
+  line-height: 40px;
+  color: black;
+  text-align: center;
+  padding: 100px;
+  height: 300px;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer a:hover {
+  color: rgb(199, 77, 172);
+}
